@@ -38,6 +38,33 @@ body {
     scrollbar-width: thin;
 }
 
+.History {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.CurrentInput {
+    font-size: 40px;
+    color: white;
+    text-align: right;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.clearButton {
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: -70px;
+}
+
 .buttons {
   display: flex;
   flex-direction: column;
